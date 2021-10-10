@@ -10,7 +10,7 @@ jobs:
       - image: cimg/node:16.10.0
     steps:
       - checkout
-      - run
+      - run:
         name: Go to frontend
         command: cd frontend
       - run:
