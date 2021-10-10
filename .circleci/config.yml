@@ -11,11 +11,11 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Go to frontend
-        command: cd frontend
+          name: Go to frontend
+          command: cd frontend
       - run:
-        name: Install dependencies
-        command: npm install
+          name: Install dependencies
+          command: npm install
       - run:
-        name: Run Tests
-        command: npm run test
+          name: Run Tests
+          command: npm run test
