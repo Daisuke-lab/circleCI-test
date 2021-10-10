@@ -3,13 +3,15 @@ version: 2.1
 workflows:
   test-deploy:
     jobs:
-      - test
+      - frontend
 jobs:
-  test:
+  frontend:
+    working_directory: ~/kj/frontend
     docker:
       - image: cimg/node:16.10.0
     steps:
       - checkout
+      path: ~/kj
       - run:
           name: See directory
           command: ls
