@@ -1,0 +1,40 @@
+.data_container {
+    border: 1px solid;
+    contain: content;
+    position: relative;
+    width: 150px;
+    height: 200px;
+}
+
+
+.ball {
+    width: 30%;
+    height: 20%;
+    border-radius:50%;
+    background-color: black
+}
+
+.top_ball {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+
+
+.children {
+    display: flex;
+    justify-content: space-around;
+    height:100%
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    height: 60%;
+    width: 2px;
+    background: black;
+    transform: translate(24px,23px);
+}

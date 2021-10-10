@@ -1,0 +1,41 @@
+.rooms {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.room {
+    border-bottom: 1px solid #9595a2;
+}
+
+.make_room {
+    background-color: #21209C;
+    color: #f1f1f1;
+    border-radius: 50px;
+    border: 2px solid #23120B;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.use_room {
+    background-color: #fdb827;
+    color: #23120B;
+    border-radius: 50px;
+    border: 2px solid #23120B;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.choose_room_container {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

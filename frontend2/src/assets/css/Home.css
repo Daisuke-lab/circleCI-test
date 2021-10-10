@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+
+.bounce_ball {
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+    position: absolute;
+}
+
+.speech_balloon {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(95, 224, 247);
+    position: absolute;
+}

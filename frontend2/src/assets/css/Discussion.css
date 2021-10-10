@@ -1,0 +1,104 @@
+.discussion_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drawer {
+    background-color: rgb(190, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.components {
+    background-color: aqua;
+    position: relative;
+}
+.stocks {
+}
+.component {
+    position: absolute;
+}
+
+.group {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
+
+.group_title {
+    font-size: 20px;
+}
+.group_paper {
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    margin: 10px;
+}
+
+
+
+.group_editor {
+    width: 60%;
+    height: 80%;
+}
+
+.group_editor_header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group_editor_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.group_editor_detail {
+    padding-top: 20px !important;
+    margin-top: 10px !important;
+}
+
+.card_editor_header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_editor_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.group_editor_detail {
+    padding-top: 20px !important;
+    margin: 10px !important;
+}
+
+.ideacards_in_group {
+}
+
+.ideacard_scroll {
+}
+
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_side {
+    text-align: end;
+}
+
+.unadded_cards_container {
+    height: 300px;
+    width: 150px;
+    overflow-y: scroll;
+}
+
+.added_cards_container {
+    height: 150px;
+    width: 300px;
+    overflow-x: scroll;
+}
