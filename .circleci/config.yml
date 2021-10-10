@@ -10,4 +10,12 @@ jobs:
       - image: cimg/node:16.10.0
     steps:
       - checkout
-      - run: node --version
+      - run
+        name: Go to frontend
+        command: cd frontend
+      - run:
+        name: Install dependencies
+        command: npm install
+      - run:
+        name: Run Tests
+        command: npm run test
