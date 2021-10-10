@@ -11,8 +11,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: See directory
-        command: ls
+          name: See directory
+          command: ls
       - run:
           name: Go to frontend
           command: cd frontend
